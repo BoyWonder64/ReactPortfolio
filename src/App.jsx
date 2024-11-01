@@ -5,7 +5,7 @@ import HomePage from "./pages/Home";
 import PortfolioPage from "./pages/Portfolio";
 import ContactPage from "./pages/Contact";
 import AboutPage from "./pages/About";
-import RootLayout from "./pages/root";
+import RootLayout from "./pages/Root";
 
 const router = createBrowserRouter([
   {
