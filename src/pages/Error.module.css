@@ -1,0 +1,14 @@
+@font-face {
+  font-family: medievilFont;
+  src: url(../assets/Alkhemikal.ttf);
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f6e9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: medievilFont;
+}

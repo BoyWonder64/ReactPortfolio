@@ -1,0 +1,40 @@
+@font-face {
+  font-family: medievilFont;
+  src: url(../assets/Alkhemikal.ttf);
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f6e9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: medievilFont;
+}
+
+.h1 {
+  font-size: 80px;
+  color: #5a2e2e;
+}
+.p {
+  font-size: 30px;
+}
+
+.img {
+  width: 300px;
+  height: auto;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #8b5a2b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: medievilFont;
+  font-size: 24px;
+  transition: background-color 0.3s, transform 0.2s;
+  text-align: center;
+}
