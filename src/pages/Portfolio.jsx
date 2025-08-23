@@ -23,7 +23,7 @@ function PortfolioPage() {
 
       <div className={classes.languages}>
         <div className={classes.column}>
-          <h2>Languages I Know</h2>
+          <h2>Languages</h2>
           <ul>
             <li>JavaScript</li>
             <li>Python</li>
@@ -39,7 +39,7 @@ function PortfolioPage() {
           </ul>
         </div>
         <div className={classes.column}>
-          <h2>Web Technologies</h2>
+          <h2>Web</h2>
           <ul>
             <li>HTML</li>
             <li>CSS</li>

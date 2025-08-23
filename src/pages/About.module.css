@@ -13,6 +13,13 @@
   font-family: medievilFont;
 }
 
+.img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
 .h1 {
   font-size: 80px;
   color: #5a2e2e;
@@ -36,5 +43,6 @@
   font-family: medievilFont;
   font-size: 24px;
   transition: background-color 0.3s, transform 0.2s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease background-color 0.3s;
   text-align: center;
 }
