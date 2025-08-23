@@ -5,6 +5,8 @@ import imgHomePage from "../assets/HomePage.png";
 import img4InARow from "../assets/4InARow.png";
 import imgHangman from "../assets/Hangman.png";
 import imgRecipe from "../assets/Recipe.png";
+import coralynGrantArt from "../assets/CoralynGrantArt.png";
+import poppyLane from "../assets/PoppyLane.png";
 
 function PortfolioPage() {
   const navigate = useNavigate();
@@ -48,47 +50,72 @@ function PortfolioPage() {
             <li>Express</li>
           </ul>
         </div>
+      </div>
 
-        <div className={classes.column}>
-          <h2>Misc</h2>
-          <ul>
-            <li>Azure DevOps</li>
-            <li>Maven</li>
-            <li>Gradle</li>
-            <li>Git</li>
-            <li>Linux/Unix Server</li>
-            <li>Postman</li>
-            <li>Selenium</li>
-            <li>Mend</li>
-            <li>Grafana</li>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>SonarQube</li>
-            <li>JUnit</li>
-            <li>NUnit</li>
-          </ul>
-        </div>
+      <div className={classes.column}>
+        <h2>Misc</h2>
+        <ul>
+          <li>Azure DevOps</li>
+          <li>Maven</li>
+          <li>Gradle</li>
+          <li>Git</li>
+          <li>Linux/Unix Server</li>
+          <li>Postman</li>
+          <li>Selenium</li>
+          <li>Mend</li>
+          <li>Grafana</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>SonarQube</li>
+          <li>JUnit</li>
+          <li>NUnit</li>
+        </ul>
       </div>
 
       <section className={classes.projects}>
         <h2 className={classes.h2}>Projects</h2>
         <div className={classes.project}>
-          <h3>Banking Application</h3>
+          <h3>Poppy Lane</h3>
           <br />
-          <img src={imgBankingApp} alt="Me" className={classes.img} />
+          <img src={poppyLane} alt="first" className={classes.img} />
           <br />
           <p>
-            Written using the MERN Stack A polished site that utilizes Tailwinds
-            Using the MERN Stack, Mongo DB was implemented My contributions The
-            majority of the backend logic regarding the Admin, Employee, and
-            Customer The MongoDB setup and integration The SHA-256 password
-            encryption User passwords are stored using SHA-256 hashing Protected
-            roles were implemented to allow Admins, Employees, and Customers to
-            navigate to their appropriate sites .
+            For this freelance project, I built a dynamic React website tailored
+            to showcase an artist’s work. The focus was creating an immersive,
+            visually engaging experience that highlights the artwork while
+            remaining intuitive for visitors. I implemented responsive layouts,
+            smooth hover effects, and interactive galleries to make each piece
+            of art stand out. This was mostly made in React with Vite components
+            to help be reusable elements, quick updates, and a fast browsing
+            experience.
           </p>
-          <Link to="https://github.com/BoyWonder64/GroupProject3750-BankingAppFrontEnd">
+          <Link to="https://github.com/BoyWonder64/CoralynGrantArt">
             View Repository
           </Link>
+          <div>
+            <Link to="https://poppylane.us/">Poppy Lane Site</Link>
+          </div>
+        </div>
+
+        <div className={classes.project}>
+          <h3>Coralyn Grant Art</h3>
+          <br />
+          <img src={coralynGrantArt} alt="second" className={classes.img} />
+          <br />
+          <p>
+            For this freelance project, I built a similar site to Poppy Lane.
+            This focus was to serve as an artists portfolio to showcase a lot of
+            their work. The artist needed to meet various class requirements.
+            This site is also a dynamic React website tailored to showcase an
+            artist’s work. This was my first freelance project outside of
+            school. I am very proud of the work I completed here.
+          </p>
+          <Link to="https://github.com/BoyWonder64/CoralynGrantArt">
+            View Repository
+          </Link>
+          <div>
+            <Link to="https://coralyngrantart.com/">Coralyn Grant Art Site</Link>
+          </div>
         </div>
         <div className={classes.project}>
           <h3>Portfolio Website</h3>
@@ -102,6 +129,24 @@ function PortfolioPage() {
             pages. I performed the logic to allow for the form to actually work.
           </p>
           <Link to="https://github.com/BoyWonder64/ReactPortfolio">
+            View Repository
+          </Link>
+        </div>
+
+        <div className={classes.project}>
+          <br />
+          <img src={imgBankingApp} alt="Me" className={classes.img} />
+          <br />
+          <p>
+            Written using the MERN Stack A polished site that utilizes Tailwinds
+            Using the MERN Stack, Mongo DB was implemented My contributions The
+            majority of the backend logic regarding the Admin, Employee, and
+            Customer The MongoDB setup and integration The SHA-256 password
+            encryption User passwords are stored using SHA-256 hashing Protected
+            roles were implemented to allow Admins, Employees, and Customers to
+            navigate to their appropriate sites .
+          </p>
+          <Link to="https://github.com/BoyWonder64/GroupProject3750-BankingAppFrontEnd">
             View Repository
           </Link>
         </div>
