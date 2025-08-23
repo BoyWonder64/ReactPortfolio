@@ -29,10 +29,13 @@ function PortfolioPage() {
             <li>Python</li>
             <li>Java</li>
             <li>C++</li>
+            <li>C</li>
+            <li>C#</li>
             <li>SQL</li>
             <li>Bash</li>
             <li>Perl</li>
             <li>Powershell</li>
+            <li>Robot Framework</li>
           </ul>
         </div>
         <div className={classes.column}>
@@ -42,6 +45,27 @@ function PortfolioPage() {
             <li>CSS</li>
             <li>React</li>
             <li>Node.js</li>
+            <li>Express</li>
+          </ul>
+        </div>
+
+        <div className={classes.column}>
+          <h2>Misc</h2>
+          <ul>
+            <li>Azure DevOps</li>
+            <li>Maven</li>
+            <li>Gradle</li>
+            <li>Git</li>
+            <li>Linux/Unix Server</li>
+            <li>Postman</li>
+            <li>Selenium</li>
+            <li>Mend</li>
+            <li>Grafana</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>SonarQube</li>
+            <li>JUnit</li>
+            <li>NUnit</li>
           </ul>
         </div>
       </div>
@@ -121,11 +145,12 @@ function PortfolioPage() {
           <img src={imgRecipe} alt="Me" className={classes.img} />
           <br />
           <p>
-           Written with Javascript and React. I used a hook to help give user feedback. The 
-           main requirement for this was to recieve data from a user form and then display it.
-           The database is a firebase database. The data is saved in a json format and is very
-           simple to work with. Overall I really liked this project and was very content with
-           my results. 
+            Written with Javascript and React. I used a hook to help give user
+            feedback. The main requirement for this was to recieve data from a
+            user form and then display it. The database is a firebase database.
+            The data is saved in a json format and is very simple to work with.
+            Overall I really liked this project and was very content with my
+            results.
           </p>
           <Link to="https://github.com/BoyWonder64/RecipeApp">
             View Repository

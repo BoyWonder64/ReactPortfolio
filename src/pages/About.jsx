@@ -17,9 +17,9 @@ function AboutPage() {
       <h1 className={classes.h1}>About Me</h1>
       <img src={imgMe} alt="Me" className={classes.img} />
       <p className={classes.p}>
-        Hi Im Maitland! I am almost finished up at Weber State University with my
+        Hi Im Maitland! I am finished up at Weber State University with my
         Bachlors from Weber State University. I already got my Assocaites from
-        SLCC and cannot wait to finally be finished with school. <br />
+        SLCC and am finally be finished with school. <br />
       </p>
 
       <img src={imgWeber} alt="Image" className={classes.img} />
@@ -41,8 +41,8 @@ function AboutPage() {
         <img src={imgMoto} alt="Image" className={classes.img} />
         <br />
         <br />I now work for a company called Motorola Solutions as a software
-        engineer. I currently work on the Statelink team. I mostly code in Java and 
-        sometimes C++ depending on the bug or project. 
+        engineer. I currently work on the IBR team. I mostly code in Java and C++. A project I am
+        most proud of is the ASP.NET Azure Cloud we built to improve downtime and validation.
       </p>
 
       <p>
