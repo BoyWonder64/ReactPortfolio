@@ -3,7 +3,7 @@ import classes from "./pixelLoadingScreen.module.css";
 import backgroundImage from "../assets/portal.gif";
 
 const TOTAL_TILES = 18;
-const FADE_DURATION = 600; // must match CSS transition
+const FADE_DURATION = 1600; // must match CSS transition
 
 function PixelLoader({ show }) {
   const [filledTiles, setFilledTiles] = useState(0);
@@ -46,7 +46,7 @@ function PixelLoader({ show }) {
       <div className={classes.overlay} />
 
       <div className={classes.box}>
-        <p className={classes.text}>LOADING ADVENTURER STATS</p>
+        <p className={classes.text}>LOADING PAGE</p>
 
         <div className={classes.bar}>
           {Array.from({ length: TOTAL_TILES }).map((_, i) => (

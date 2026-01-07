@@ -48,11 +48,34 @@
 
 .imgWrapper {
   position: relative;
-  display: inline-block;
+  width: auto;         /* container width */
+  height: auto;          /* will expand with background aspect ratio */
+  background-image: url('../assets/dungeon.png'); /* your dungeon image */
+  background-size: contain;   /* scale to fit inside container */
+  background-repeat: no-repeat;
+  background-position: center; /* keep it centered */
+}
+/* Background image */
+.bgImg {
+  width: 100%;
+  height: auto;
+  display: center;
+  object-fit: contain; /* keeps image inside container */
+  object-position: center; /* center the image horizontally & vertically */
+}
+
+/* Foreground image */
+.fgImg {
+  position: absolute;  /* overlay on top */
+  top: -10%;
+  left: 12%;
+  width: 75%;        /* match container */
+  height: auto;
+  pointer-events: none; /* optional, allows clicks to pass through */
 }
 
 .statsBox {
-  position: absolute;
+  position: center;
   top: 0;
   left: 0;
   width: 300px;

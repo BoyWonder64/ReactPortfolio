@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import classes from "./Home.module.css";
-import imgMe from "../../src/assets/FinalMe.gif";
+import imgMe from "../../src/assets/noBackgroundMe.gif";
+import dungeon from "../../src/assets/6colors.gif"
 import scrollTop from "../../src/assets/scrollTop.png";
 import scrollBottom from "../../src/assets/scrollBottom.png";
 
@@ -24,7 +25,9 @@ function HomePage() {
         <p className={classes.p}>Good morrow adventurer!</p>
 
         <div className={classes.imgWrapper}>
-          <img src={imgMe} alt="Me" className={classes.img} />
+          <img src={dungeon} alt="Dungeon" className={classes.bgImg} />
+          <img src={imgMe} alt="Me" className={classes.fgImg} />
+
           <div className={classes.statsBox}>
             <h3>Developer Exp</h3>
             <ul>
