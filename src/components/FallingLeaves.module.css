@@ -1,0 +1,32 @@
+.leavesWrapper {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: visible;
+  z-index: 0;
+  will-change: transform;
+}
+
+.leaf {
+  position: absolute;
+  top: -20px;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0.8;
+  image-rendering: pixelated;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
