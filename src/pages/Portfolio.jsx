@@ -114,7 +114,9 @@ function PortfolioPage() {
             View Repository
           </Link>
           <div>
-            <Link to="https://coralyngrantart.com/">Coralyn Grant Art Site</Link>
+            <Link to="https://coralyngrantart.com/">
+              Coralyn Grant Art Site
+            </Link>
           </div>
         </div>
         <div className={classes.project}>
@@ -134,6 +136,7 @@ function PortfolioPage() {
         </div>
 
         <div className={classes.project}>
+          <h3>Banking Site</h3>
           <br />
           <img src={imgBankingApp} alt="Me" className={classes.img} />
           <br />
