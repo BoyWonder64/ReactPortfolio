@@ -5,6 +5,9 @@ import imgHumong from "../../src/assets/humongus.jpg";
 import imgMoto from "../../src/assets/moto.jpg";
 import imgWeber from "../../src/assets/Weber.png";
 
+import scrollTop2 from "../../src/assets/ScrollTop2.png";
+import scrollBottom2 from "../../src/assets/ScrollBottom2.png";
+
 function AboutPage() {
   const navigate = useNavigate();
 
@@ -14,6 +17,10 @@ function AboutPage() {
 
   return (
     <div className={classes.container}>
+      <div className={classes.scrollHeader}>
+        <img src={scrollTop2} alt="Scroll Top" className={classes.scrollImg} />
+      </div>
+
       <h1 className={classes.h1}>About Me</h1>
       <img src={imgMe} alt="Me" className={classes.img} />
       <p className={classes.p}>
@@ -34,15 +41,16 @@ function AboutPage() {
       <p className={classes.p}>
         <br />
         I enjoy creative problem-solving, and yes I do enjoy debugging. In my
-        free time, I listen to mountain bike, read books, and 3D Printing. The biggest
-        thing I have ever made was a full suit of armor.
+        free time, I listen to mountain bike, read books, and 3D Printing. The
+        biggest thing I have ever made was a full suit of armor.
         <br />
         <br />
         <img src={imgMoto} alt="Image" className={classes.img} />
         <br />
         <br />I now work for a company called Motorola Solutions as a software
-        engineer. I currently work on the IBR team. I mostly code in Java and C++. A project I am
-        most proud of is the ASP.NET Azure Cloud we built to improve downtime and validation.
+        engineer. I currently work on the IBR team. I mostly code in Java and
+        C++. A project I am most proud of is the ASP.NET Azure Cloud we built to
+        improve downtime and validation.
       </p>
 
       <p>
@@ -50,6 +58,23 @@ function AboutPage() {
           Go Home
         </button>
       </p>
+
+      <div className={classes.scrollFooter}>
+        <img
+          src={scrollBottom2}
+          alt="Scroll Bottom"
+          className={classes.scrollImg}
+        />
+      </div>
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
     </div>
   );
 }

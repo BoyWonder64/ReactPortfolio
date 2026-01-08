@@ -1,6 +1,9 @@
 import useInput from "../hooks/useInput";
 import classes from "./Contact.module.css";
 
+import scrollTop2 from "../../src/assets/ScrollTop2.png";
+import scrollBottom2 from "../../src/assets/ScrollBottom2.png";
+
 const ContactPage = () => {
   const {
     value: enteredName,
@@ -46,9 +49,9 @@ const ContactPage = () => {
       message: enteredMessage,
     };
 
-        console.log("Contact name being sent:", contactData.name);
-        console.log("Contact email being sent:", contactData.email);
-        console.log("Contact message being sent:", contactData.message);
+    console.log("Contact name being sent:", contactData.name);
+    console.log("Contact email being sent:", contactData.email);
+    console.log("Contact message being sent:", contactData.message);
 
     try {
       await fetch(
@@ -61,12 +64,10 @@ const ContactPage = () => {
           },
         }
       );
-    //   window.location.reload();
+      //   window.location.reload();
     } catch (error) {
       console.error("Error saving recipe:", error);
     }
-
-    
 
     resetNameInput();
     resetEmailInput();
@@ -75,6 +76,10 @@ const ContactPage = () => {
 
   return (
     <div className={classes.container}>
+      <div className={classes.scrollHeader}>
+        <img src={scrollTop2} alt="Scroll Top" className={classes.scrollImg} />
+      </div>
+
       <form className={classes.form} onSubmit={formSubmissionHandler}>
         <h1>Contact Me</h1>
         <p>Looking forward to hearing from you.</p>
@@ -149,6 +154,27 @@ const ContactPage = () => {
           <button className={classes.button}>Send Message</button>
         </div>
       </form>
+
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
+
+      <div className={classes.scrollFooter}>
+        <img
+          src={scrollBottom2}
+          alt="Scroll Bottom"
+          className={classes.scrollImg}
+        />
+      </div>
     </div>
   );
 };

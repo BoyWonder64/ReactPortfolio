@@ -111,3 +111,33 @@ h1 {
   transition: background-color 0.3s, transform 0.2s;
   text-align: center;
 }
+
+.scrollImg {
+  width: 100%; /* spans full container width */
+  height: auto; /* preserves aspect ratio */
+}
+
+.scrollHeader {
+  position: absolute;
+  top: 110px; /* move it above container */
+  left: -7%;
+  width: 115%;
+  height: auto; /* adjust */
+  z-index: 10;
+}
+
+.scrollFooter {
+  position: absolute;
+  bottom: -300px; /* move it above container */
+  width: 115%;
+  left: -7%;
+  height: auto; /* adjust */
+  z-index: 10;
+}
+
+.scrollImg {
+  width: 40%;
+  height: 40%; /* fills the scrollHeader height */
+  object-fit: cover; /* preserves aspect ratio, fills container */
+  image-rendering: pixelated;
+}

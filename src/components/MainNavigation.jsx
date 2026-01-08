@@ -1,51 +1,36 @@
 import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
+import BannerImage from "../../src/assets/UI_Flat_Banner01a.png";
 
 function MainNavigation() {
+  const navItems = [
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About Me" },
+    { path: "/portfolio", label: "Portfolio" },
+    { path: "/contact", label: "Contact Me" },
+  ];
+
   return (
     <header className={classes.header}>
       <nav>
         <ul className={classes.list}>
-          <li>
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive ? classes.active : undefined
-              }
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                isActive ? classes.active : undefined
-              }
-            >
-              About Me
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/portfolio"
-              className={({ isActive }) =>
-                isActive ? classes.active : undefined
-              }
-            >
-              Portfolio
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? classes.active : undefined
-              }
-            >
-              Contact Me
-            </NavLink>
-          </li>
+          {navItems.map((item) => (
+            <li key={item.path}>
+              <NavLink
+                to={item.path}
+                className={({ isActive }) =>
+                  isActive ? classes.active : undefined
+                }
+              >
+                <div
+                  className={classes.navBanner}
+                  style={{ backgroundImage: `url(${BannerImage})` }}
+                >
+                  <span className={classes.navText}>{item.label}</span>
+                </div>
+              </NavLink>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>

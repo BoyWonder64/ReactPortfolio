@@ -8,6 +8,9 @@ import imgRecipe from "../assets/Recipe.png";
 import coralynGrantArt from "../assets/CoralynGrantArt.png";
 import poppyLane from "../assets/PoppyLane.png";
 
+import scrollTop2 from "../../src/assets/ScrollTop2.png";
+import scrollBottom2 from "../../src/assets/ScrollBottom2.png";
+
 function PortfolioPage() {
   const navigate = useNavigate();
 
@@ -17,6 +20,19 @@ function PortfolioPage() {
 
   return (
     <div className={classes.container}>
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
+      <div className={classes.scrollHeader}>
+        <img src={scrollTop2} alt="Scroll Top" className={classes.scrollImg} />
+      </div>
+
       <h1 className={classes.h1}>My Portfolio</h1>
       <p className={classes.intro}>
         Welcome to my portfolio! Here you can find some of my projects and learn
@@ -206,11 +222,26 @@ function PortfolioPage() {
         </div>
       </section>
 
-      <p className={classes.backButton}>
+      {/* <p className={classes.backButton}>
         <button onClick={navigateHandler} className={classes.button}>
           Go Home
         </button>
-      </p>
+      </p> */}
+
+      <span>
+        <br />
+      </span>
+      <span>
+        <br />
+      </span>
+
+      <div className={classes.scrollFooter}>
+        <img
+          src={scrollBottom2}
+          alt="Scroll Bottom"
+          className={classes.scrollImg}
+        />
+      </div>
     </div>
   );
 }
