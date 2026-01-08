@@ -64,7 +64,7 @@
 
 .scrollFooter {
   position: absolute;
-  bottom: -1850px; /* move it above container */
+  bottom: -1750px; /* move it above container */
   width: 115%;
   left: -7%;
   height: auto; /* adjust */
