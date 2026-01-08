@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import classes from "./Portfolio.module.css";
 import imgBankingApp from "../assets/BankingApp.gif";
 import imgHomePage from "../assets/HomePage.png";
+import imgHomePage2 from "../assets/HomePage2.png";
 import img4InARow from "../assets/4InARow.png";
 import imgHangman from "../assets/Hangman.png";
 import imgRecipe from "../assets/Recipe.png";
@@ -138,7 +139,7 @@ function PortfolioPage() {
         <div className={classes.project}>
           <h3>Portfolio Website</h3>
           <br />
-          <img src={imgHomePage} alt="Me" className={classes.img} />
+          <img src={imgHomePage2} alt="Me" className={classes.img} />
           <br />
           <p>
             This Repo contains all of the react code for this site that I built.
