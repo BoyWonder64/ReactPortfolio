@@ -2,7 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MainNavigation from "../components/MainNavigation";
 import PixelLoader from "../components/pixelLoadingScreen";
-import FallingLeaves from "../components/fallingLeaves";
+import FallingLeaves from "../components/FallingLeaves";
 
 function RootLayout() {
   const location = useLocation();

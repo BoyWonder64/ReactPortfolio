@@ -123,24 +123,24 @@
 }
 
 .scrollImg {
-  width: 100%; /* spans full container width */
+  width: auto; /* spans full container width */
   height: auto; /* preserves aspect ratio */
 }
 
 .scrollHeader {
   position: absolute;
   top: 100px; /* move it above container */
-  left: -7%;
-  width: 115%;
+  left: 5.9%;
+  width: 88%;
   height: auto; /* adjust */
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .scrollFooter {
   position: absolute;
-  bottom: -4500px; /* move it above container */
-  width: 115%;
-  left: -7%;
+  bottom: -4300px; /* move it above container */
+  width: 88%;
+  left: 5.9%;
   height: auto; /* adjust */
   z-index: 10;
 }

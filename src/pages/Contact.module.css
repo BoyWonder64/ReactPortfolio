@@ -120,17 +120,17 @@ h1 {
 .scrollHeader {
   position: absolute;
   top: 110px; /* move it above container */
-  left: -7%;
-  width: 115%;
+  left: 0%;
+  width: 100%;
   height: auto; /* adjust */
   z-index: 10;
 }
 
 .scrollFooter {
   position: absolute;
-  bottom: -300px; /* move it above container */
-  width: 115%;
-  left: -7%;
+  bottom: -120px; /* move it above container */
+  width: 100%;
+  left: 0%;
   height: auto; /* adjust */
   z-index: 10;
 }

@@ -24,9 +24,9 @@ function AboutPage() {
       <h1 className={classes.h1}>About Me</h1>
       <img src={imgMe} alt="Me" className={classes.img} />
       <p className={classes.p}>
-        Hi Im Maitland! I am finished up at Weber State University with my
-        Bachlors from Weber State University. I already got my Assocaites from
-        SLCC and am finally be finished with school. <br />
+        Hi Im Maitland! A passionate Software engineer with a desire to help write clean code. 
+        I graduated from Weber State University with my
+        Bachlors from Weber State University and am happy to finally be finished with school. <br />
       </p>
 
       <img src={imgWeber} alt="Image" className={classes.img} />
@@ -40,17 +40,20 @@ function AboutPage() {
       <br />
       <p className={classes.p}>
         <br />
-        I enjoy creative problem-solving, and yes I do enjoy debugging. In my
-        free time, I listen to mountain bike, read books, and 3D Printing. The
+        I enjoy creative problem-solving, and yes I DO enjoy debugging. In my
+        free time, I mountain bike, read books, and 3D Printing. The
         biggest thing I have ever made was a full suit of armor.
         <br />
         <br />
         <img src={imgMoto} alt="Image" className={classes.img} />
         <br />
-        <br />I now work for a company called Motorola Solutions as a software
-        engineer. I currently work on the IBR team. I mostly code in Java and
-        C++. A project I am most proud of is the ASP.NET Azure Cloud we built to
-        improve downtime and validation.
+        <br />Though my work journey, I found myself working at Motorola Solutions as fullstack software
+        engineer. Most of the work I do does end up being on the backend and involves C# and Java. 
+        The main product I work on is IBR (Incident Base Reporting). I help make sure reporting is up to State spec and 
+        varys from State to State. 
+
+
+   
       </p>
 
       <p>

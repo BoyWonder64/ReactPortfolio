@@ -37,7 +37,7 @@ function HomePage() {
             />
 
             <div className={classes.speechText}>
-              Good morrow,
+              Hello!
               {/* <br /> */}
               &nbsp;Scroll over each item in my inventory
             </div>
@@ -99,7 +99,7 @@ function HomePage() {
 
               {/* React */}
               <div className={classes.item}>
-                <span className={classes.itemName}>React</span>
+                <span className={classes.itemName}>React JS</span>
                 <div className={classes.itemTooltip}>
                   <strong>React / JavaScript</strong>
                   <p>
@@ -226,7 +226,7 @@ function HomePage() {
         </div>
 
         <p className={classes.p}>
-          I am a developer and sometimes an artist. Feel free to browse around
+          I am a developer an artist and video editor. Feel free to browse around
           and contact me if you have any questions.
         </p>
 
