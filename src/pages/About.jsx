@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import classes from "./About.module.css";
-import imgMe from "../../src/assets/IMG_0004.png";
+import imgMe from "../../src/assets/IMG_0005.png";
 import imgHumong from "../../src/assets/humongus.jpg";
 import imgMoto from "../../src/assets/moto.jpg";
 import imgWeber from "../../src/assets/Weber.png";
