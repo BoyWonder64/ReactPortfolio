@@ -1,12 +1,12 @@
 import { Link, useNavigate } from "react-router-dom";
 import classes from "./About.module.css";
 import imgMe from "../assets/IMG_0005.png";
-import imgHumong from "../../src/assets/humongus.jpg";
-import imgMoto from "../../src/assets/moto.jpg";
-import imgWeber from "../../src/assets/Weber.png";
+import imgHumong from "../assets/humongus.jpg";
+import imgMoto from "../assets/moto.jpg";
+import imgWeber from "../assets/Weber.png";
 
-import scrollTop2 from "../../src/assets/ScrollTop2.png";
-import scrollBottom2 from "../../src/assets/ScrollBottom2.png";
+import scrollTop2 from "../assets/ScrollTop2.png";
+import scrollBottom2 from "../assets/ScrollBottom2.png";
 
 function AboutPage() {
   const navigate = useNavigate();
