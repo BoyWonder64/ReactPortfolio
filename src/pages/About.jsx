@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import classes from "./About.module.css";
-import imgMe from "../assets/IMG_0005.png";
+import imgMe from "../assets/profilePic1.png";
 import imgHumong from "../assets/humongus.jpg";
 import imgMoto from "../assets/moto.jpg";
 import imgWeber from "../assets/Weber.png";
@@ -24,9 +24,10 @@ function AboutPage() {
       <h1 className={classes.h1}>About Me</h1>
       <img src={imgMe} alt="Me" className={classes.img} />
       <p className={classes.p}>
-        Hi Im Maitland! A passionate Software engineer with a desire to help write clean code. 
-        I graduated from Weber State University with my
-        Bachlors from Weber State University and am happy to finally be finished with school. <br />
+        Hi Im Maitland! A passionate Software engineer with a desire to help
+        write clean code. I graduated from Weber State University with my
+        Bachlors from Weber State University and am happy to finally be finished
+        with school. <br />
       </p>
 
       <img src={imgWeber} alt="Image" className={classes.img} />
@@ -41,19 +42,18 @@ function AboutPage() {
       <p className={classes.p}>
         <br />
         I enjoy creative problem-solving, and yes I DO enjoy debugging. In my
-        free time, I mountain bike, read books, and 3D Printing. The
-        biggest thing I have ever made was a full suit of armor.
+        free time, I mountain bike, read books, and 3D Printing. The biggest
+        thing I have ever made was a full suit of armor.
         <br />
         <br />
         <img src={imgMoto} alt="Image" className={classes.img} />
         <br />
-        <br />Though my work journey, I found myself working at Motorola Solutions as fullstack software
-        engineer. Most of the work I do does end up being on the backend and involves C# and Java. 
-        The main product I work on is IBR (Incident Base Reporting). I help make sure reporting is up to State spec and 
-        varys from State to State. 
-
-
-   
+        <br />
+        Though my work journey, I found myself working at Motorola Solutions as
+        fullstack software engineer. Most of the work I do does end up being on
+        the backend and involves C# and Java. The main product I work on is IBR
+        (Incident Base Reporting). I help make sure reporting is up to State
+        spec and varys from State to State.
       </p>
 
       <p>
